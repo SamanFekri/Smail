@@ -1,0 +1,40 @@
+body {
+    margin: 30px;
+    text-align: center;
+	background-color: #cce6ff;
+    
+}
+.person {
+    width: 25%;
+     border-radius: 25px;
+    margin-left: 20px;
+    margin-right: auto;
+    padding: 10px;
+    float:left;
+    border: 7px solid #000066;
+}
+.person img {
+    width: 100px;
+    height: 100px;
+}
+.person span{
+    display: inline-block;
+}
+.person button {
+    background-color: #000066;
+    color:white;
+}
+.person button:hover {
+    background-color: lightgray;
+    
+}
+.person:hover{
+    border: 7px solid lightgray;
+
+}
+button {
+    width: 100px;
+    background-color: rgb(151, 217, 255);
+    border-radius: 5px 5px;
+    display: inline-block;
+}

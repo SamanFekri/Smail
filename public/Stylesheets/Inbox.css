@@ -1,0 +1,88 @@
+body {
+    margin: 0;
+    text-align: center;
+	background-color: #cce6ff;
+	 border-radius: 25px;
+}
+#box {
+    border-right: 1px solid gray;
+    width: 250px;
+    height: 300px;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+    /*position: fixed;*/
+}
+#box h5 {
+    border: 1px solid gray;
+    width: 200px;
+    margin-right: auto;
+    margin-left: auto;
+    height: 25px;
+    line-height: 25px;
+    cursor: pointer;
+	background-color: #000066;
+	color:white;
+	 border-radius: 25px;
+}
+#box h5:hover {
+    background-color: lightgray;
+	
+}
+#box h5.selected{
+	background-color:red;
+}
+#compose {
+    background-color: #000066;
+	
+}
+#refresh {
+    background-color: #000066;
+}
+#mails {
+    border-left: 1px solid gray;
+    width: 900px;
+    display: inline-block;
+    float: left;
+    margin-top: 50px;
+}
+.eachMail {
+	float:left;
+	width:100%;
+	margin-bottom:10px;
+}
+.eachMail div {
+    display: inline-block;
+    margin-top: 1px;
+}
+.from {
+    float: left;
+    width: 150px;
+    border-right: 1px solid gray;
+}
+.subject {
+    float: left;
+    width: 200px;
+    border-right: 1px solid gray;
+}
+.text {
+    float: left;
+    width: 400px;
+    color: lightgray;
+    border-right: 1px solid gray;
+}
+.date {
+    float: left;
+    width: auto;
+    color: gray;
+    border-right: 1px solid gray;
+}
+.eachMail:hover {
+    cursor: pointer;
+}
+#header {
+    background-color:#000066;
+    color:white;
+    text-align:center;
+    padding:5px;
+}

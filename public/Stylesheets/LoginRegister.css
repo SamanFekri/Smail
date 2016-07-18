@@ -1,0 +1,63 @@
+body {
+    margin: 0;
+    text-align: center;
+	background-color:#cce6ff;
+	 border-radius: 25px;
+}
+#container {
+    width: 810px;
+    background-color: yellow;
+    margin-left: auto;
+    margin-right: auto;
+}
+.forms {
+    width: 400px;
+    height: 250px;
+    float: left;
+    display: inline-block;
+    border: 1px gray solid;
+    margin-top: 50px;
+    padding-top: 50px;
+    background-color: #97d9ff;
+}
+.forms label {
+    width: 100px;
+    margin: 13px;
+    float: left;
+}
+.titles {
+    display: inline-block;
+    width: 120px;
+    height: 200px;
+    float: left;
+    margin-left: 75px;
+}
+.inputs {
+    display: inline-block;
+    width: 140px;
+    height: 140px;
+    float: left;
+}
+.inputs input {
+    margin: 11px;
+}
+.titles input {
+    margin-top: 10px;
+    width: 100px;
+    margin: 0;
+    float: right;
+}
+.titles h6 {
+    margin: 0;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+#login {
+    margin-top: 30px;
+}
+#checkremember {
+    width: 20px;
+    float: left;
+    margin-top: 5px;
+    margin-left: 30px;
+}

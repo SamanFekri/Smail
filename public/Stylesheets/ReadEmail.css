@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    text-align: center;
+	background-color: #cce6ff;
+    line-height: 10%;
+	 border-radius: 25px;
+}
+#email {
+    padding-left: 50px;
+    background-color: #f0ebeb;
+    width: 800px;
+    /* height: 80px; */
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    text-align: left;
+    padding-bottom: 10px;
+    padding-right: 50px;
+    border: 1px solid gray;
+}
+#from,#subject,#date {
+    color: #97d9ff;
+}
+#email P {
+    display: inline-block;
+    /*word-wrap: break-word;*/
+}
+#text {
+    color: #6c6c6c;
+    margin-left: 80px;
+    /*word-wrap: break-word;*/
+}
+#test {
+    word-wrap:break-word;
+}
+#test p {
+    display: block;
+}
