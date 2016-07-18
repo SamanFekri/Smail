@@ -1,3 +1,15 @@
+# SMail
+SKings Email
+
+## FAQ
+
+- why is simple?
+because its home work of IE course and all of it made in 2 days.
+
+- why is so ugly?
+because TA of this lesson make HTML, CSS and we just must build backend of project. 
+
+
 # Laravel PHP Framework
 
 [![Build Status](https://travis-ci.org/laravel/framework.svg)](https://travis-ci.org/laravel/framework)
